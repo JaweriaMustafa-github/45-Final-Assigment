@@ -3,7 +3,7 @@ let magicians : string[] = ["John", "Vlad" , "David"];
 function make_great (magicians : string[]): string[] {
     let greatMagicians : string[] = [];
     magicians.forEach((magician)=> {
-        greatMagicians.push(`${magicians} the Great!`);
+        greatMagicians.push(`  ${magician} the Great!   `);
     });
     return greatMagicians;
 }

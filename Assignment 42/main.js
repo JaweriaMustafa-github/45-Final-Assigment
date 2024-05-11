@@ -11,7 +11,7 @@ var magicians = ["John", "Vlad", "David"];
 function make_great(magicians) {
     var greatMagicians = [];
     magicians.forEach(function (magician) {
-        greatMagicians.push("".concat(magicians, " the Great!"));
+        greatMagicians.push("  ".concat(magician, " the Great!   "));
     });
     return greatMagicians;
 }
