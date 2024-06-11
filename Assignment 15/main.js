@@ -1,7 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // Assignment 15
-let guestList = ["Linta", "Fiza", "Anaya"];
+var guestList = ["Linta", "Fiza", "Anaya"];
 // question 15
 console.log("Great News! we found a biger table.");
 // add something in the beginning of the array
@@ -12,6 +10,6 @@ guestList.splice(Math.floor(guestList.length / 2), 0, "Hoorain");
 // push()
 guestList.push("Iqra");
 // foreach
-guestList.forEach(guests => {
-    console.log(`Dear ${guests}, You all are cordially invited to dinner!`);
+guestList.forEach(function (guests) {
+    console.log("Dear ".concat(guests, ", You are cordially invited to dinner!"));
 });
