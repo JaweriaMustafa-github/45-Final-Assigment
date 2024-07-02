@@ -13,7 +13,7 @@ var girl2 = "Irha";
 var girl3 = "Nadia";
 // equality in strings
 console.log("Testing inequality in strings:");
-if (girl1 !== girl3) {
+if (girl1.length !== girl3.length) {
     console.log("Both names don't have equal letters. \n");
 }
 else {
@@ -22,7 +22,7 @@ else {
 ;
 //  inequality in strings
 console.log("Testing equality in strings:");
-if (girl1 === girl2) {
+if (girl1.length === girl2.length) {
     console.log("Both names are equal in letters. \n");
 }
 else {
